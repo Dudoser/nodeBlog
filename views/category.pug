@@ -1,0 +1,16 @@
+if categoryPost
+    h1 #{categoryPost[0].categoryName}
+    each post in categoryPost
+        h2
+            a(href="/post/?id=" + post.id) #{post.title}
+        p #{post.image}
+        p
+            span #{post.created_at}
+
+            span
+                a(href='/user/?id=' + post.user_id) #{post.name}
+if category
+    h1 Categories
+    each cat in category
+        h2
+            a(href="/category/?id=" + cat.id) #{cat.name}

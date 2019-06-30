@@ -1,0 +1,10 @@
+h2 username: #{user.name}
+p user email:  #{user.email}
+p user id: #{user.id}
+hr
+br
+h3 user post
+ul
+    each post in userPost
+        li
+            a(href='/post/?id=' + post.id) #{post.title}

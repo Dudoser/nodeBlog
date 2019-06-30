@@ -1,0 +1,21 @@
+
+h2 Category
+each cat in category
+    p
+        span
+            a(href='category/?id=' + cat.id) #{cat.name}
+h2 Articles
+each val, index in goods
+    p
+        span #{val.image}
+        span  |
+        span
+            a(href='post/?id=' + val.id) #{val.title}
+        span  |
+        span #{val.created_at}
+        span  |
+        span #{val.author}
+        span  |
+        span #{val.category}
+
+
