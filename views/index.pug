@@ -1,21 +1,18 @@
-
 h2 Category
 each cat in category
     p
         span
-            a(href='category/?id=' + cat.id) #{cat.name}
+            a(href='/category/' + cat.name) #{cat.name}
 h2 Articles
-each val, index in goods
+each val, index in post
     p
         span #{val.image}
         span  |
         span
-            a(href='post/?id=' + val.id) #{val.title}
+            a(href='/post/' + val.url) #{val.title}
         span  |
         span #{val.created_at}
         span  |
         span #{val.author}
         span  |
         span #{val.category}
-
-
