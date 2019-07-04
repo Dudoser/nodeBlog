@@ -1,0 +1,13 @@
+h2 Articles
+a(href="/") home
+hr
+each val, index in post
+    p
+        span #{val.image}
+        span  |
+        span
+            a(href='/post/' + val.url) #{val.title}
+        span  |
+        span #{val.created_at}
+        span  |
+        span #{val.userName}
