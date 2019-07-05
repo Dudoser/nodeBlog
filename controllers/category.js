@@ -9,8 +9,7 @@ app.use(express.json());
 
 module.exports.index = function (req, res) {
 
-    let url_category = url.parse(req.url, true).pathname;
-    url_category = url_category.split('/')[2];
+    let url_category = req.params.category_name;
 
     if(url_category == '' || url_category == undefined) {
 

@@ -1,3 +1,12 @@
+span
+    a(href='/login/') login
+span  |
+span
+    a(href='/registration/') registration
+p
+a(href='/post/create/') create post
+
+hr
 h2 Category
 each cat in category
     p
@@ -16,3 +25,6 @@ each val, index in post
         span #{val.author}
         span  |
         span #{val.category}
+        span  |
+        span
+            a(href='/post/update/' + val.id) update

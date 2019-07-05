@@ -15,23 +15,12 @@ let connection = mysql.createConnection({
 
 app.set('view engine', 'pug');
 
-
-// let mainRout = require('./controllers/main.js');
-// let postRout = require('./controllers/post.js');
-
-
 let router = require('./router/router');
 
 router(app);
 
-
 app.set('views', path.join(__dirname, 'views'));
-
 
 app.use(express.json());
 
-
-app.listen(3000);
-
-// app.use('/post', postRout({connection: connection}));
-// app.use('/', mainRout({connection: connection}));
+app.listen(3023);

@@ -1,0 +1,12 @@
+h1 login
+hr
+form(action='/login/', method='POST')
+    p
+        | username:
+        input(type='text', name='username', placeholder='you login...')
+        | password:
+        input(type='password' name='password' placeholder='you password...')
+        input(type='submit', value='Submit')
+
+if post
+    p af

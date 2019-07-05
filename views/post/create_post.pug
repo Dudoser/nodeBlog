@@ -1,0 +1,15 @@
+a(href='/') home
+span
+    a(href='/login/') login
+span
+    a(href='/registration/') registration
+hr
+form(action='/create/', method='POST')
+    p
+        | title:
+        input(type='text', name='title', value='')
+        | text:
+        textarea(name='text')
+        //| image
+        //input(type='file' name='image', value='')
+        input(type='submit', value='Submit')
