@@ -2,7 +2,6 @@ let express = require('express');
 let app = express();
 app.use(express.json());
 
-var db = require('../models/dbconnect');
 
 module.exports.index = function (req, res) {
 

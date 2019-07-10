@@ -1,146 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bd7f6b3-611d-46f5-8480-43f17c9382f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/passport/passport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/auth/login.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/auth/registration.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/post/update.pug" afterDir="false" />
+    <list default="true" id="5bd7f6b3-611d-46f5-8480-43f17c9382f0" name="Default Changelist" comment="test with mysql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbconnect.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/dbconnect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/file.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/incoming_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/json_parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/multipart_parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/octet_parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/lib/querystring_parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/dist/css/mustard-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/dist/css/mustard-ui.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/examples/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/examples/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/examples/pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/base/base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/breadcrumbs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/menus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/panels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/pricing-tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/progress-bars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/sidebars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/steppers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/tabs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/tags.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/components/tooltips.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/blockquotes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/links.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/elements/typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/mixins/breakpoint.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/mixins/centering.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/mixins/clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/mixins/triangle.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/mustard-ui.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/utility/alignment.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/utility/containers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/utility/display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/utility/grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/utility/sections.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/vars/breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mustard-ui/src/scss/vars/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/.prettierrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/addressparser/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/base64/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/message-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/relaxed-body.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/sign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/cookies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/json-transport/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mail-composer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/mail-message.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/mime-types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/last-newline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/qp/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/le-unix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/le-windows.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/shared/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/data-stream.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/pool-resource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-transport/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/services.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/lib/xoauth2/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemailer/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/array-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/source-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dbconnect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/create_post.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/post/create_post.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/post.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/post/post.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/post_one.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/post/post_one.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,26 +44,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/post.js">
+        <entry file="file://$PROJECT_DIR$/controllers/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <marker date="1562761065264" expanded="true" signature="976:1094" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/migrations/20190710121336-create-post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -213,6 +106,11 @@
       <find>util</find>
       <find>pug</find>
       <find>LocalStrategy</find>
+      <find>defi</find>
+      <find>n</find>
+      <find>define</find>
+      <find>defineCall</find>
+      <find>createdAt</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -220,9 +118,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -233,22 +128,30 @@
         <option value="$PROJECT_DIR$/views/user.pug" />
         <option value="$PROJECT_DIR$/views/create_post.pug" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/controllers/category.js" />
         <option value="$PROJECT_DIR$/views/post/update.pug" />
         <option value="$PROJECT_DIR$/views/post/create_post.pug" />
         <option value="$PROJECT_DIR$/views/auth/registration.pug" />
         <option value="$PROJECT_DIR$/views/auth/login.pug" />
-        <option value="$PROJECT_DIR$/controllers/auth.js" />
-        <option value="$PROJECT_DIR$/controllers/main.js" />
         <option value="$PROJECT_DIR$/views/index.pug" />
-        <option value="$PROJECT_DIR$/router/router.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/config/passport/passport.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/dbconnect.js" />
+        <option value="$PROJECT_DIR$/config/dbconnect.js" />
+        <option value="$PROJECT_DIR$/controllers/main.js" />
+        <option value="$PROJECT_DIR$/controllers/auth.js" />
+        <option value="$PROJECT_DIR$/controllers/category.js" />
+        <option value="$PROJECT_DIR$/router/router.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/migrations/20190710113813-create-post.js" />
+        <option value="$PROJECT_DIR$/migrations/20190710114826-create-post.js" />
+        <option value="$PROJECT_DIR$/migrations/20190710115328-create-post.js" />
+        <option value="$PROJECT_DIR$/migrations/20190710115602-create-post.js" />
+        <option value="$PROJECT_DIR$/migrations/20190710120217-create-post.js" />
         <option value="$PROJECT_DIR$/models/post.js" />
+        <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/controllers/post.js" />
+        <option value="$PROJECT_DIR$/migrations/20190710121336-create-post.js" />
       </list>
     </option>
   </component>
@@ -256,10 +159,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
-    <option name="y" value="80" />
-    <option name="width" value="1855" />
-    <option name="height" value="1012" />
+    <option name="x" value="57" />
+    <option name="y" value="-4" />
+    <option name="width" value="1863" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -267,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,7 +180,17 @@
             <path>
               <item name="bbb" type="b2602c69:ProjectViewProjectNode" />
               <item name="bbb" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bbb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbb" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bbb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bbb" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bbb" type="b2602c69:ProjectViewProjectNode" />
@@ -290,22 +202,18 @@
               <item name="bbb" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbb" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../df" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_node" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -313,10 +221,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../df" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/config/passport" />
       <recent name="$PROJECT_DIR$/views/post" />
       <recent name="$PROJECT_DIR$/views" />
@@ -347,7 +257,12 @@
       <workItem from="1561716643380" duration="5846000" />
       <workItem from="1561898538874" duration="3337000" />
       <workItem from="1561902927492" duration="16627000" />
-      <workItem from="1562305092673" duration="26034000" />
+      <workItem from="1562305092673" duration="28248000" />
+      <workItem from="1562567329000" duration="1582000" />
+      <workItem from="1562571210290" duration="33000" />
+      <workItem from="1562572295133" duration="21000" />
+      <workItem from="1562592201426" duration="18000" />
+      <workItem from="1562748485881" duration="7931000" />
     </task>
     <task id="LOCAL-00001" summary="change structure all project">
       <created>1562253714789</created>
@@ -363,19 +278,26 @@
       <option name="project" value="LOCAL" />
       <updated>1562253787260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test with mysql">
+      <created>1562339167238</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562339167238</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52364000" />
+    <option name="totallyTimeSpent" value="64163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26747385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2839846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -386,8 +308,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2834728" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3828452" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3294979" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -399,7 +323,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change structure all project" />
-    <option name="LAST_COMMIT_MESSAGE" value="change structure all project" />
+    <MESSAGE value="test with mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="test with mysql" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/app.js" />
@@ -433,26 +358,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.js" />
     <entry file="file://$PROJECT_DIR$/db.js" />
     <entry file="file://$PROJECT_DIR$/views/post/post.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -484,24 +395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -519,27 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -547,27 +423,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/dbconnect.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/types/lib/model.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="1756" column="16" selection-start-line="1756" selection-start-column="16" selection-end-line="1756" selection-end-column="16" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710090301-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/response.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dbconnect.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710092747-create-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710113813-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710114930-create-cate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710114826-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710115328-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710115602-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710120217-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/cate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="225">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1562761065264" expanded="true" signature="976:1094" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710121821-create-cdf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20190710121336-create-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>

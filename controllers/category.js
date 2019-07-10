@@ -3,7 +3,6 @@ let app = express();
 
 let url = require('url');
 
-let db = require('../models/dbconnect');
 
 app.use(express.json());
 
