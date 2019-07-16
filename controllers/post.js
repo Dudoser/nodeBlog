@@ -9,11 +9,26 @@ app.use(express.json());
 
 module.exports.index = function (req, res) {
 
-    let url_post = req.params.post_title;
 
-    if(url_post == '' || url_post == undefined) {
 
-        console.log("123");
+
+
+        // model.post.findAll().then(post => {
+        //     res.render('post/post', {
+        //         post: JSON.parse(JSON.stringify(post, null))
+        //     });
+        // });
+
+        model.post.findAll({
+            include: [
+                { model: model.category, as: "sss",  where: {id:1} }
+            ]
+        }).then(post => {
+            res.render('post/post', {
+                post: JSON.parse(JSON.stringify(post, null))
+            });
+        });
+
 
         // db.query(
         //     "SELECT post.id AS id, post.url AS url, post.title AS title, post.image AS image, post.created_at AS created_at, user.id AS user_id, user.name AS author, category.name AS category FROM post LEFT JOIN user ON user.id = post.created_by LEFT JOIN category ON category.id = post.category_id ORDER  BY id DESC",
@@ -24,43 +39,17 @@ module.exports.index = function (req, res) {
         //     }
         // );
 
-    } else {
+};
 
+module.exports.onePost = function (req, res) {
 
+    let url_post = req.params.post_title;
 
-        //
-        // model.Post.create({
-        //
-        // }).then();
-
-
-        model.Post.findAll().then(post => {
-            console.log("All posts:", JSON.stringify(post, null, 4));
+    model.post.findAll({where: {url: url_post}}).then(post => {
+        res.render('post/post_one', {
+            post : JSON.parse(JSON.stringify(post, null))
         });
-
-        // Post.Post.findAll().then(
-        //     post => {
-        //         console.log(post);
-        //         res.json(post)
-        //     }
-        // );
-
-        // db.query(
-        //     "SELECT * FROM post WHERE url=?",
-        //     [url_post],
-        //     function(error, result, field) {
-        //         if(result.length == 0) {
-        //             res.status(404).send('post with url <b>' + url_post + '</b> is not foound!');
-        //         } else {
-        //             res.render('post/post_one', {
-        //                 post : JSON.parse(JSON.stringify(result[0]))
-        //             });
-        //         }
-        //     }
-        // );
-
-
-    }
+    });
 };
 
 // module.exports.update = function (req, res) {

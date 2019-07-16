@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (app) {
-  // let main = require('../controllers/main');
+  let main = require('../controllers/main');
   let post = require('../controllers/post');
   // let category = require('../controllers/category');
   // let auth = require('../controllers/auth');
@@ -12,8 +12,11 @@ module.exports = function (app) {
   // app.route('/post/create/')
   //     .get(post.create);
 
-  app.route('/post/:post_title')
+  app.route('/post')
       .get(post.index);
+
+  app.route('/post/:post_title')
+      .get(post.onePost);
   //
   // app.route('/category/:category_name')
   //     .get(category.index);
@@ -24,7 +27,7 @@ module.exports = function (app) {
   // app.route('/registration/')
   //     .get(auth.registration);
   //
-  // app.route('/')
-  //     .get(main.index);
+  app.route('/')
+      .get(main.index);
 
 };
