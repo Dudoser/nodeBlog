@@ -1,26 +1,19 @@
 'use strict';
-let models = require('../models/index');
 module.exports = (sequelize, DataTypes) => {
   const post = sequelize.define('post', {
     title: DataTypes.STRING,
-    category_id: DataTypes.INTEGER,
-    image: DataTypes.STRING,
     text: DataTypes.TEXT,
-    created_at: DataTypes.INTEGER,
+    url: DataTypes.STRING,
+    image: DataTypes.STRING,
     created_by: DataTypes.INTEGER,
-    url: DataTypes.STRING
+    updated_by: DataTypes.INTEGER,
+    category_id: DataTypes.INTEGER
   }, {
     underscored: true,
+    tableName: 'post'
   });
   post.associate = function(models) {
     // associations can be defined here
-    post.hasOne(models.category, {
-      foreignKey: 'id',
-      as: 'sss'
-    })
   };
   return post;
 };
-
-
-

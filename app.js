@@ -5,6 +5,7 @@ let path = require('path');
 let http = require('http');
 
 app.set('view engine', 'pug');
+app.use(express.json());
 
 let router = require('./router/router');
 

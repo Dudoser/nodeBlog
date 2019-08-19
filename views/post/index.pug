@@ -1,0 +1,17 @@
+h2 Articles
+a(href='/') home
+hr
+each val in post
+    p
+        span #{val.image}
+        span  |
+        span
+            a(href='/post/' + val.url) #{val.title}
+        span  |
+        span #{val.createdAt}
+        span  |
+        span
+            a(href='/user/'+ val.created_by) #{val.created_by}
+        span  |
+        span
+            a(href='/category/'+ val.category_id) #{val.category_id}
