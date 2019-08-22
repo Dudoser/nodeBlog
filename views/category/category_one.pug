@@ -1,13 +1,15 @@
 h2 Articles
 a(href="/") home
 hr
-each val, index in post
+h3 category #{post.title}
+hr
+each val in post.posts
     p
         span #{val.image}
         span  |
         span
             a(href='/post/' + val.url) #{val.title}
         span  |
-        span #{val.created_at}
+        span   #{val.createdAt}
         span  |
-        span #{val.userName}
+        span #{val.user.name}

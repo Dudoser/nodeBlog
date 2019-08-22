@@ -11,7 +11,7 @@ each val in post
         span #{val.createdAt}
         span  |
         span
-            a(href='/user/'+ val.created_by) #{val.created_by}
+            a(href='/user/'+ val.created_by) #{val.user.name}
         span  |
         span
-            a(href='/category/'+ val.category_id) #{val.category_id}
+            a(href='/category/'+ val.category.url) #{val.category.title}

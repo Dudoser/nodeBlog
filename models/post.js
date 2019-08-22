@@ -13,7 +13,8 @@ module.exports = (sequelize, DataTypes) => {
     tableName: 'post'
   });
   post.associate = function(models) {
-    // associations can be defined here
+    post.belongsTo(models.category);
+    post.belongsTo(models.user, {foreignKey:'created_by'});
   };
   return post;
 };

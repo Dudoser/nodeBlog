@@ -13,11 +13,11 @@ module.exports = function (app) {
       .get(category.index);
 
 
-  // app.route('/post/:post_title')
-  //     .get(post.onePost);
-  //
-  // app.route('/category/:category_name')
-  //     .get(category.index);
+  app.route('/post/:url')
+      .get(post.onePost);
+
+  app.route('/category/:category_name')
+      .get(category.one_category);
   //
   // app.route('/login/')
   //     .all(auth.login);

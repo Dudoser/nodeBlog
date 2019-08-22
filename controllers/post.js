@@ -6,7 +6,15 @@ let url = require('url');
 let models = require('../models');
 
 module.exports.index = function (req, res) {
-    models.post.findAll().then(post_all => {
+    models.post.findAll({
+        include: [{
+            model: models.category,
+            attributes: ['url', 'title']
+        }, {
+            model: models.user,
+            attributes: ['name']
+        }]
+    }).then(post_all => {
         res.render('post/index', {
             post: post_all
         });
@@ -14,12 +22,14 @@ module.exports.index = function (req, res) {
 };
 
 module.exports.onePost = function (req, res) {
-
-    let url_post = req.params.post_title;
-
-    models.post.findAll({where: {url: url_post}}).then(post => {
+    models.post.findOne({
+        include: [{
+            model: models.category,
+            attributes: ['title', 'url']
+        }]},
+        {where: {url: req.params.url}}).then(post => {
         res.render('post/post_one', {
-            post : JSON.parse(JSON.stringify(post, null))
+            post : post
         });
     });
 };
