@@ -8,23 +8,25 @@ a(href='/post/create/') create post
 
 hr
 h2 Category
-each cat in category
+each cat in data.all_category
     p
         span
-            a(href='/category/' + cat.name) #{cat.name}
+            a(href='/category/' + cat.url) #{cat.title}
 h2 Articles
-each val, index in post
+each val in data.post
     p
         span #{val.image}
         span  |
         span
-            a(href='/post/' + val.url) #{val.title}
+            a(href=`/post/${val.url}`) #{val.title}
         span  |
-        span #{val.created_at}
-        span  |
-        span #{val.author}
-        span  |
-        span #{val.category}
+        span #{val.createdAt}
         span  |
         span
-            a(href='/post/update/' + val.id) update
+            a(href=`/user/${val.user.id}`) #{val.user.name}
+        span  |
+        span
+            a(href=`/user/${val.category.url}`) #{val.category.title}
+        span  |
+        span
+            a(href='/post/update/' + val.url) update

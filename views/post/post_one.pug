@@ -2,5 +2,7 @@ a(href='/') home
 hr
 h2 #{post.title}
 p #{post.text}
+p created |
+    a(href=`/user/${post.user.id}`) #{post.user.name}
 p category
     a(href=`/category/${post.category.url}`) | #{post.category.title}

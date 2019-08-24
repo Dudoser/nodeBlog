@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7f6b3-611d-46f5-8480-43f17c9382f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20190819181737-create-category.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20190819181737-create-category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/category/category_one.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/category/category_one.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/auth/login.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/login.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/post/post_one.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/post/post_one.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +61,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_node" />
+    <property name="last_opened_file_path" value="$USER_HOME$/crm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -75,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/controllers" />
       <recent name="$PROJECT_DIR$/views/category" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/config/passport" />
-      <recent name="$PROJECT_DIR$/views/post" />
-      <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,7 +128,8 @@
       <workItem from="1565891711915" duration="604000" />
       <workItem from="1566236608272" duration="7179000" />
       <workItem from="1566497202395" duration="1225000" />
-      <workItem from="1566502921229" duration="4859000" />
+      <workItem from="1566502921229" duration="5178000" />
+      <workItem from="1566666734068" duration="11144000" />
     </task>
     <task id="LOCAL-00001" summary="change structure all project">
       <created>1562253714789</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566243175796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added route: one post/ one category / category">
+      <created>1566508081629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566508081629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +189,7 @@
     <MESSAGE value="change structure all project" />
     <MESSAGE value="test with mysql" />
     <MESSAGE value="finaly i'm sit write this blog =)" />
-    <option name="LAST_COMMIT_MESSAGE" value="finaly i'm sit write this blog =)" />
+    <MESSAGE value="added route: one post/ one category / category" />
+    <option name="LAST_COMMIT_MESSAGE" value="added route: one post/ one category / category" />
   </component>
 </project>

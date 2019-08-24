@@ -3,16 +3,20 @@ let app = express();
 
 let path = require('path');
 let http = require('http');
+var bodyParser = require('body-parser');
 
-app.set('view engine', 'pug');
 app.use(express.json());
+app.set('view engine', 'pug');
+
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+
+app.set('views', path.join(__dirname, 'views'));
 
 let router = require('./router/router');
 
 router(app);
 
-app.set('views', path.join(__dirname, 'views'));
 
-app.use(express.json());
-
-app.listen(8677);
+app.listen(8647);

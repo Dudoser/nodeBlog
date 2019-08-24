@@ -1,32 +1,29 @@
-let express = require('express');
-let app = express();
-app.use(express.json());
-
+let models = require('../models');
 
 module.exports.index = function (req, res) {
 
-    let post = new Promise(function (resolve, reject) {
-        db.query(
-            "SELECT post.id AS id, post.url AS url, post.title AS title, post.image AS image, post.created_at AS created_at, user.id AS user_id, user.name AS author, category.name AS category FROM post LEFT JOIN user ON user.id = post.created_by LEFT JOIN category ON category.id = post.category_id",
-            function (error, result, field) {
-                resolve(result);
-            }
-        );
-    });
+    Promise.all([
+        models.post.findAll({
+            include: [{
+                model: models.user,
+                attributes: ['id', 'name']
+            },
+            {
+                model: models.category,
+                attributes: ['url', 'title'],
+                as: 'category'
+            }]
+        }),
+        models.category.findAll({
+            attributes:['url', 'title'],
+            as: 'all_category'
+        })
+    ]).then(([post, all_category]) => {
 
-    let category = new Promise(function (resolve, reject) {
-        db.query(
-            "SELECT * FROM category",
-            function (error, result, field) {
-                resolve(result);
-            }
-        );
-    });
 
-    Promise.all([post, category]).then(function (value) {
         res.render('index', {
-            post: JSON.parse(JSON.stringify(value[0])),
-            category: JSON.parse(JSON.stringify(value[1]))
-        });
-    })
+            data: {post: post, all_category: all_category}
+        })
+    });
+
 };
